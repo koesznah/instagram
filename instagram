@@ -1,0 +1,90 @@
+<index.html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+    
+        
+        <br/>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBw2irfxZP_kg4EXEP3obC7sKkJfhpIwU0A&usqp=CAU"
+            width="100"/>
+            <input type="search" value="검색"/>
+        </div>
+    
+        <div>
+            <div id="profile">
+                <img src="project1/image/338356458_601370255364003_2480261105875865134_n.jpg"
+                width="130px"/>
+                <h2>Koesznah</h2>
+                <button>프로필 편집</button>
+            </div>
+            <div>
+                <p>
+                    <strong>
+                        한지석(Jiseok Han)
+                    </strong><br/>
+                    Photographer
+                    </p>
+                    <p>
+                    <a href="https://github.com/koesznah">koesznah.github.io</a>
+                    </p>
+            </div>
+        </div>
+    
+    
+        <div>
+            <P>
+                <div>
+                    게시물<br/>    
+                    10<br/>
+                </div>
+                <div>
+                    팔로워<br/>
+                    200<br/>
+                </div>
+                <div>
+                    팔로우<br/>
+                    200<br/>
+                </div>
+            </P>
+        
+        </div>
+        <div>
+            <div class="highlight">
+                <div>
+                    <img src="project1/image/하이라이트.jpg"
+                    height="50px"/>
+                </div>
+                TOKYO
+            </div>
+            <div class="highlight">
+                    <img src="project1/image/하이라이트2.jpg"
+                    height="50px"/>
+                    </div>
+                SUGAR
+            </div>
+        </div>
+    <div>
+        <img src="project1/image/게시1.png"
+        width="32%"/>
+        <img src="project1/image/게시2.png"
+        width="32%"/>
+        <img src="project1/image/게시3.png"
+        width="32%"/>
+        <img src="project1/image/게시4.png"
+        width="32%"/>
+        <img src="project1/image/게시5.png"
+        width="32%"/>
+        <img src="project1/image/게시6.png"
+        width="32%"/>
+    
+    </div>
+    
+    
+    
+    </body>
+    
+    </index.html>
+    
