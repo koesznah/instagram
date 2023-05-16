@@ -4,21 +4,23 @@
     </head>
     
     <body>
-    
-        
+
         <br/>
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBw2irfxZP_kg4EXEP3obC7sKkJfhpIwU0A&usqp=CAU"
-            width="100"/>
-            <input type="search" value="검색"/>
+        <div class="main">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBw2irfxZP_kg4EXEP3obC7sKkJfhpIwU0A&usqp=CAU"/>
+                <input type="search" value="검색"/>
+                <div></div>
         </div>
     
         <div>
             <div id="profile">
-                <img src="project1/image/338356458_601370255364003_2480261105875865134_n.jpg"
-                width="130px"/>
-                <h2>Koesznah</h2>
-                <button>프로필 편집</button>
+                <div id="profile_pic">
+                    <img class="circle_pic" src="project1/image/338356458_601370255364003_2480261105875865134_n.jpg"/>
+                </div>
+                <div id="profile_info">
+                    <div id="id">Koesznah</div>
+                    <button>프로필 편집</button>    
+                </div>
             </div>
             <div>
                 <p>
@@ -32,53 +34,55 @@
                     </p>
             </div>
         </div>
-    
-    
-        <div>
-            <P>
-                <div>
-                    게시물<br/>    
-                    10<br/>
-                </div>
-                <div>
-                    팔로워<br/>
-                    200<br/>
-                </div>
-                <div>
-                    팔로우<br/>
-                    200<br/>
-                </div>
-            </P>
-        
-        </div>
-        <div>
+
+        <div class="highlight_area">
             <div class="highlight">
-                <div>
+                <div class="highlight_pic">
                     <img src="project1/image/하이라이트.jpg"
-                    height="50px"/>
+                    class="circle_pic"/>
                 </div>
                 TOKYO
             </div>
             <div class="highlight">
+                <div class="highlight_pic">
                     <img src="project1/image/하이라이트2.jpg"
-                    height="50px"/>
+                    class="circle_pic"/>
                     </div>
                 SUGAR
             </div>
+            <div></div>
         </div>
+
+        <div id="stat_bar">
+            <div class="stat">
+                게시물<br/>    
+                10
+            </div>
+            <div class="stat">
+                팔로워<br/>
+                200
+            </div>
+            <div class="stat">
+                팔로우<br/>
+                200
+            </div>   
+    </div>
+
     <div>
-        <img src="project1/image/게시1.png"
-        width="32%"/>
-        <img src="project1/image/게시2.png"
-        width="32%"/>
-        <img src="project1/image/게시3.png"
-        width="32%"/>
-        <img src="project1/image/게시4.png"
-        width="32%"/>
-        <img src="project1/image/게시5.png"
-        width="32%"/>
-        <img src="project1/image/게시6.png"
-        width="32%"/>
+        <div>
+            <div class="thumnail_grid">
+                <img src="project1/image/게시1.png" class="thumnail"/>
+                <img src="project1/image/게시2.png" class="thumnail"/>
+                <img src="project1/image/게시3.png" class="thumnail"/>
+            </div>
+            <div class="thumnail_grid">
+                <img src="project1/image/게시4.png" class="thumnail"/>
+                <img src="project1/image/게시5.png" class="thumnail"/>
+                <img src="project1/image/게시6.png" class="thumnail"/>
+            </div>
+        </div>
+        
+
     
     </div>
     
